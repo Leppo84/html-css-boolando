@@ -4,11 +4,26 @@
     box-sizing: border-box;
 }
 
-.alternative {
+.photoseen {
+    max-width: 100%;
+}
+
+.photoalt {
+    display: none;
+    max-width: 100%;
+}
+
+.article:hover .photoalt {
+    display: block;
+}
+
+.article:hover .photoseen {
     display: none;
 }
 
 .article {
+    width: 33%;
+    background-color: grey;
     position: relative;
 }
 
@@ -21,7 +36,7 @@
     border-bottom-left-radius: 12px;
     background-color: white;
     color: red;
-    font-size: 16px;
+    font-size: 32px;
 }
 
 .advice {
@@ -31,6 +46,7 @@
 }
 
 .discount {
+    position: relative;
     color: white;
     background-color: green;
     padding: 5px;
@@ -38,6 +54,7 @@
 }
 
 .label {
+    position: relative;
     color: white;
     background-color: red;
     padding: 5px;
