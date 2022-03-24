@@ -1,3 +1,52 @@
-body {
-    background-color: darkgray;
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.alternative {
+    display: none;
+}
+
+.article {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding: 30px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: white;
+    color: red;
+    font-size: 16px;
+}
+
+.advice {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.discount {
+    color: white;
+    background-color: green;
+    padding: 5px;
+    margin-left:2px;
+}
+
+.label {
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.red {
+    color: red;
+}
+
+.barred {
+    text-decoration: line-through;
 }
